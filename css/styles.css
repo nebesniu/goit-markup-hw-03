@@ -238,6 +238,9 @@ text-align: center;
 }
 
 .adr-link {
+display: block;
+margin-bottom: 9px;
+
 font-family: Roboto;
 font-style: normal;
 font-weight: 400;
@@ -245,6 +248,7 @@ font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 }
+
 
 a[href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+26"] {
     color: var(--first-text-color);
@@ -304,12 +308,26 @@ letter-spacing: 0.03em;
 }
 /* ------------------------------footer */
 
+ 
 .footer-logo {
-    color: var(--first-text-color);
+    font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+color: var(--accent);
+
+display: block;
+margin-bottom: 20px;
 }
 
 
 
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 
 

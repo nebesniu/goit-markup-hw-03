@@ -241,6 +241,8 @@ body {
 .team-box {
   background-color: #ffffff;
   border: 1px solid #eeeeee;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-title {
@@ -280,7 +282,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* ------------------------------footer */

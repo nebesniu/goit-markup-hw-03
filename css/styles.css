@@ -21,6 +21,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* /-------------------------*общие стили  */
@@ -29,7 +31,6 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid tomato;
 }
 
 .section {
@@ -72,10 +73,14 @@ body {
 .header-box {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #ececec;
 }
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -85,6 +90,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent);
+
+  padding-top: 24px;
+  padding-bottom: 14px;
+  margin-right: 93px;
 }
 
 .logo {
@@ -106,6 +115,8 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--second-title-color);
+  padding-top: 32px;
+  padding-bottom: 21px;
 }
 .current {
   color: var(--accent);
@@ -132,7 +143,11 @@ body {
   font-size: 14px;
   line-height: 1.14x;
   letter-spacing: 0.02em;
+
   color: var(--body-color);
+
+  padding-top: 32px;
+  padding-bottom: 21px;
 }
 /* -----------------hero------------------- */
 .hero-title {
@@ -150,6 +165,7 @@ body {
 
 .hero {
   background-color: var(--second-title-color);
+  text-align: center;
 }
 
 .hero-btn {

@@ -31,6 +31,7 @@ img {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 
 .section {
@@ -58,8 +59,6 @@ img {
 }
 
 body {
-  width: 1600px;
-  background-color: var(--bg-color);
   color: var(--body-color);
   letter-spacing: 0.03em;
   font-family: 'Roboto', sans-serif;
@@ -91,8 +90,8 @@ body {
   line-height: 1.19;
   color: var(--accent);
 
-  padding-top: 24px;
-  padding-bottom: 14px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   margin-right: 93px;
 }
 
@@ -116,7 +115,7 @@ body {
 
   color: var(--second-title-color);
   padding-top: 32px;
-  padding-bottom: 21px;
+  padding-bottom: 32px;
 }
 .current {
   color: var(--accent);
@@ -147,10 +146,11 @@ body {
   color: var(--body-color);
 
   padding-top: 32px;
-  padding-bottom: 21px;
+  padding-bottom: 32px;
 }
 /* -----------------hero------------------- */
 .hero-title {
+  width: 695px;
   margin: 0 auto;
   margin-bottom: 30px;
 
@@ -164,18 +164,17 @@ body {
 }
 
 .hero {
-  background-color: var(--second-title-color);
+  background-color: #2f303a;
+  padding: 200px 0;
   text-align: center;
 }
 
 .hero-btn {
-  width: 200px;
-  height: 50px;
   padding: 10px 32px;
 
   font-family: inherit;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
@@ -194,6 +193,10 @@ body {
 }
 /* ------------------about----------------
  */
+.about {
+  padding-bottom: 0;
+}
+
 .about-list {
   display: flex;
   flex-wrap: wrap;
@@ -277,6 +280,7 @@ body {
 }
 
 .team-item {
+  width: 270px;
   margin-right: 30px;
 }
 
@@ -360,7 +364,7 @@ a[href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+
 }
 
 .btn-list {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
@@ -411,9 +415,7 @@ a[href="https://www.google.com.ua/maps/place/бул.+Леси+Украинки,+
 .projects-box {
   background-color: #ffffff;
   border: 1px solid #eeeeee;
-
-  padding: 0 24px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 }
 /* ------------------------------footer */
 
